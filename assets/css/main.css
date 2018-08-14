@@ -10,6 +10,9 @@
 	letter-spacing: 1.5px;
 	color: black;
 }
+::placeholder { 
+	color: white;
+}
 header{
 	margin: 1em 3em;
 }
@@ -21,6 +24,9 @@ nav ul li a{
 }
 .search, span{
 	margin-top: 2em;
+}
+.glyphicon{
+	margin: auto 2em;
 }
 .container-nav{
 	background: #663cc0;	
@@ -52,7 +58,7 @@ span, a{
 	list-style: none;
 	color: white;
 }
-section, footer{
+section{
 	margin: 2em auto;
 }
 .container-images{
@@ -84,13 +90,29 @@ section, footer{
 	transform:scale(1.1);
 	transition: all 0.2s ease;
 }
+.look{
+	font-family: 'Dancing Script', cursive;
+	color: #663cc0;
+}
 .instagram{
 	color: #663cc0;
 }
 footer{
+	margin-top: 2em;
 	background: black;
 	color: white;
-	height: 100vh;
+	max-height: 100%;
+}
+h5{
+	letter-spacing: 1px;
+	margin-bottom: 3em;
+}
+ul{
+	list-style: none;
+	font-size: 12px;
+}
+.lista{
+	margin: 5em auto;
 }
 .contenido-footer, .redSocial{
 	margin-top: 2.5em;
@@ -113,3 +135,4 @@ footer{
 .icon{
 	margin-left: 1em;
 }
+
